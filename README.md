@@ -1,4 +1,4 @@
-# Spec Compliance Statement – an AI Skill for Claude and ChatGPT
+# Specification Compliance Statement – an AI Skill for Claude and ChatGPT
 
 An agent skill (open `SKILL.md` format) that turns a construction project specification section into a ready-to-fill **Compliance Statement in Excel** for material / technical submittals. It works in **Claude** (app and Claude Code) and **ChatGPT** (Skills, Codex), and in any other assistant that supports `SKILL.md` skills with a Python sandbox.
 
@@ -43,9 +43,9 @@ Available on Free, Pro, Max, Team and Enterprise. On Team / Enterprise an owner 
 ### Claude Code
 
 ```bash
-git clone https://github.com/ljworld/spec-compliance-statement.git
+git clone https://github.com/ljworld/Specification-Compliance-Statement.git
 mkdir -p ~/.claude/skills
-cp -r spec-compliance-statement/spec-compliance-statement ~/.claude/skills/
+cp -r Specification-Compliance-Statement/spec-compliance-statement ~/.claude/skills/
 ```
 
 To share it with one project's team instead, copy it to `.claude/skills/` inside that project.
@@ -64,9 +64,9 @@ To share it with one project's team instead, copy it to `.claude/skills/` inside
 ### OpenAI Codex (CLI / IDE extension)
 
 ```bash
-git clone https://github.com/ljworld/spec-compliance-statement.git
+git clone https://github.com/ljworld/Specification-Compliance-Statement.git
 mkdir -p ~/.agents/skills
-cp -r spec-compliance-statement/spec-compliance-statement ~/.agents/skills/
+cp -r Specification-Compliance-Statement/spec-compliance-statement ~/.agents/skills/
 ```
 
 To share it with one repository's team, copy it to `.agents/skills/` in that repository. Codex detects new skills automatically; restart it if the skill doesn't appear.
@@ -100,6 +100,7 @@ Claude's environment includes all of these. In ChatGPT, text PDFs work out of th
 ## Repository layout
 
 ```
+Specification-Compliance-Statement/   <- this repository
 spec-compliance-statement/        <- the skill (upload this folder, zipped)
   SKILL.md                        <- instructions the assistant follows
   scripts/compliance.py           <- extraction + Excel builder
