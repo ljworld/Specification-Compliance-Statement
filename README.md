@@ -43,7 +43,7 @@ Available on Free, Pro, Max, Team and Enterprise. On Team / Enterprise an owner 
 ### Claude Code
 
 ```bash
-git clone https://github.com/<your-username>/spec-compliance-statement.git
+git clone https://github.com/ljworld/spec-compliance-statement.git
 mkdir -p ~/.claude/skills
 cp -r spec-compliance-statement/spec-compliance-statement ~/.claude/skills/
 ```
