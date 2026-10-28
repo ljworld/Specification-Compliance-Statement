@@ -64,7 +64,7 @@ To share it with one project's team instead, copy it to `.claude/skills/` inside
 ### OpenAI Codex (CLI / IDE extension)
 
 ```bash
-git clone https://github.com/<your-username>/spec-compliance-statement.git
+git clone https://github.com/ljworld/spec-compliance-statement.git
 mkdir -p ~/.agents/skills
 cp -r spec-compliance-statement/spec-compliance-statement ~/.agents/skills/
 ```
